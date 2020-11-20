@@ -1,0 +1,22 @@
+[
+    {
+        "checked": true,
+        "task": "Ágy csinálás"
+    },
+    {
+        "checked": false,
+        "task": "Redőny felhúzás"
+    },
+    {
+        "checked": false,
+        "task": "Reggeli"
+    },
+    {
+        "checked": false,
+        "task": "Macska etetés"
+    },
+    {
+        "checked": false,
+        "task": "Ebéd"
+    }
+]

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="my.css">
+    <title>Todo List</title>
+</head>
+
+<body>
+    <label for="check_all">Select All</label>
+    <input id="input_check_all" type="checkbox">
+    ||
+    <button id="button_delete_checked">Delete Selected</button>
+    ||
+    <input type="text" id="input_add" placeholder="New Task">
+    <button id="button_add">Add</button>
+
+    <div id="listBox">
+        <ul>
+            <li><input type="checkbox"> checkbox 1</li>
+            <li><input type="checkbox"> checkbox 2</li>
+            <li><input type="checkbox"> checkbox 3</li>
+            <li><input type="checkbox"> checkbox 4</li>
+        </ul>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./src/data.js"></script>
+    <script src="./src/List.js"></script>
+    <script src="my.js"></script>
+</body>
+
+</html>
